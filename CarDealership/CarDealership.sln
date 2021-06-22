@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealership", "CarDealership\CarDealership.csproj", "{232AC195-CDAF-405A-BB01-42ACE34DAE0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{3DF2D714-32DF-400F-A242-640DB5EA2700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{499C7902-9203-47C8-B334-73EC9FE371CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{232AC195-CDAF-405A-BB01-42ACE34DAE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232AC195-CDAF-405A-BB01-42ACE34DAE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232AC195-CDAF-405A-BB01-42ACE34DAE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232AC195-CDAF-405A-BB01-42ACE34DAE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF2D714-32DF-400F-A242-640DB5EA2700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF2D714-32DF-400F-A242-640DB5EA2700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF2D714-32DF-400F-A242-640DB5EA2700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF2D714-32DF-400F-A242-640DB5EA2700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499C7902-9203-47C8-B334-73EC9FE371CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499C7902-9203-47C8-B334-73EC9FE371CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499C7902-9203-47C8-B334-73EC9FE371CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499C7902-9203-47C8-B334-73EC9FE371CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99947E26-D70C-499D-99EB-A50844759F29}
+	EndGlobalSection
+EndGlobal
