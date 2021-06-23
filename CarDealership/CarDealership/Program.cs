@@ -114,7 +114,6 @@ namespace CarDealership
                     Console.WriteLine("You must enter email and password\n");
                     Console.ReadLine();
                     continue;
-                    //throw new Exception("Email and password must contain at least 3 characters");
                 }
 
                 User loggedUser = DbUsers.Users.FirstOrDefault(x => x.Mail == email);
@@ -125,7 +124,6 @@ namespace CarDealership
                     Console.WriteLine($@"Sorry email ""{email}"" not exist{"\n"}");
                     Console.ReadLine();
                     continue;
-                    //throw new Exception($"Sorry email {email} not exist");
                 }
 
                 if (!loggedUser.PasswordCheck(pass))
@@ -153,7 +151,6 @@ namespace CarDealership
             {
                 Console.Clear();
                 Console.WriteLine($"Welcome to CarShop {client.FullName}\n");
-                //Console.WriteLine($"Your Balance: {client.Balance}\n\n");
                 Console.WriteLine($"1.View all vehicles\n2.Log out");
                 string clientInput = Console.ReadLine();
                 bool clientInputParse = int.TryParse(clientInput, out int clientInputNum);
@@ -221,7 +218,6 @@ namespace CarDealership
                     Console.WriteLine("Vehicle not found");
                     Console.ResetColor();
                     Console.ReadLine();
-                    //throw new Exception("Vehicle not found");
                     break;
                 }
                 if (selectedVehicle.Status == Enums.VehicleStatusEnum.Reserved || selectedVehicle.Status == Enums.VehicleStatusEnum.Sold)
@@ -606,7 +602,6 @@ namespace CarDealership
                         {
                             Console.Clear();
                             Console.WriteLine($"Vehicle with ID {vehicleIdReject} not found please try again");
-                            //throw new Exception("Vehicle not found");
                             Console.ReadLine();
                             break;
                         }
@@ -696,7 +691,6 @@ namespace CarDealership
                         {
                             Console.Clear();
                             Console.WriteLine("Vehicle ID not found \nPlease try again");
-                            //throw new Exception("Vehicle ID not found \nPlease try again");
                             Console.ReadLine();
                             continue;
                         }

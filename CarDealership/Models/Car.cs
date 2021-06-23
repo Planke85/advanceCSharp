@@ -25,13 +25,9 @@ namespace Models
         }
         public override string VehicleInfo()
         {
-            //string haveSensors = ParkingSensor ? "Yes" : "No";
-            //string haveNavi = Navigation ? "Yes" : "No";
-            //string haveLaneAssistant = LaneAssistant ? "Yes" : "No";
-            //string haveCruiseControl = AdaptiveCruiseControl ? "Yes" : "No";
             return $"{"Type :",-25} {Type,-25}\n{"Vehicle ID :",-25} {Id,-25}\n{"Brand :",-25} {Brand,-25}\n{"Model :",-25} {Model,-25}\n{"Fuel :",-25} {EngineType,-5} + optional hybrid / diesel / electric\n{"Engin Capacity :",-25} {EnginceCapacityCC,-25}" +
-                $"\n{"Transmission :",-25} {Transmission,-5} + optional Automatic / SemiAutomatic\n{"Price :",-25} {Price,3} $\n{"Power :",-25} {Power,0} {"PS",1}\n{"Status :",-25} {Status,0}\n{"WheelSize :",-25} {WheelSize,0} inch + extra option\n{"ParkingSensor :",-25} extra option\n{"Navigation :",-25} extra option\n" +
-                $"{"LaneAssistant :",-25} extra option\n{"AdaptiveCruiseControl :",-25} extra option\n\n";
+            $"\n{"Transmission :",-25} {Transmission,-5} + optional Automatic / SemiAutomatic\n{"Price :",-25} {Price,3} $\n{"Power :",-25} {Power,0} {"PS",1}\n{"Status :",-25} {Status,0}\n{"WheelSize :",-25} {WheelSize,0} inch + extra option\n{"ParkingSensor :",-25} extra option\n{"Navigation :",-25} extra option\n" +
+            $"{"LaneAssistant :",-25} extra option\n{"AdaptiveCruiseControl :",-25} extra option\n\n";
         }
         public void CalculatePrice()
         {
